@@ -7,7 +7,6 @@ date: 2009-10-01
 venue: 'Modern Chinese'
 citation: 'Xu, Guanlan. (2009). &quot;From “Shan Wei Cui Feng Yong” - Talk About Opinions on Movement and Stillness, Reasonable Interest, and entirely free feelings of Landscape Poetry of Su Shi.&quot; <i>Modern Chinese</i>. 1(1).'
 ---
-
 This paper is about Sushi's poems.
 
 
