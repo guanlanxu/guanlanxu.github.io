@@ -1,5 +1,3 @@
-
-
 ---
 title: "From “Shan Wei Cui Feng Yong” - Talk About Opinions on Movement and Stillness, Reasonable Interest, and entirely free feelings of Landscape Poetry of Su Shi"
 collection: publications
