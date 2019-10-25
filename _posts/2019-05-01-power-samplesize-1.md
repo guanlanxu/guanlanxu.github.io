@@ -60,12 +60,12 @@ $$\mathbf{I}= X^TWX = \left( \begin{array}{cc}
 For simplification, we can denote each elements as $i_{00}$,$i_{01}$,$i_{10}$,$i_{11}$.  
 
 
-$$\mathbf{I} = \left[
-  \begin{array}{cc}
+$$
+\left[ \begin{array}{cc}
     i_{00} & i_{01} \\\\ 
     i_{10} & i_{11}  
-  \end{array}
-\right]$$
+  \end{array} \right]
+$$
 
 If we take inverse of the matrix and the second diagnal element would be variance of slope. 
 
@@ -84,6 +84,8 @@ This is a method mentioned in Grieve, A. et al.(2016). Since $\mathbf{X}$ follow
 $$\frac{1}{\sqrt(2\pi\sigma)}\int \frac{X^ke^{\beta_0+\beta_1X}}{(1+e^{\beta_0+\beta_1X})^2} e^{-\frac{1}{2 \sigma^2}(X-\mu)^2} dX (K = 0,1,2)$$
 
 $$\sum_{i=1}^{N} \frac{W_i}{\sqrt \pi} \frac{(\sqrt{2}\sigma Z_i + \mu)^K e^{\beta_0+\beta_1(\sqrt{2}\sigma Z_i)+ \mu}}{(1+e^{\beta_0 + \beta_1(\sqrt{2}\sigma Z_i +\mu)})^2}$$
+
+
 Here, $K$ is $0,1,2$, N is an integer selected by researcher. Bigger N generally gives more accurate result. Grieve, A. et al.(2016) used N = 20 in their paper because it is the maximum number provided by Abramowitz and Stegun(1984). $Z_i$ and $W_i$ are zeros and weights of Hermite polynomial approximation that can be found on published table. 
 
 
