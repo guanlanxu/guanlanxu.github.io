@@ -47,11 +47,10 @@ Define: $\mathbf{W} = diag(\frac{1}{b''(\theta_i)(g'(\mu_i))^2})  =  diag(\pi_i(
 
 Then fisher information matrix is:
 
-$$\mathbf{I}= X^TWX = \left[\begin{array}
-{rr}
+$$\mathbf{I}= X^TWX = \begin{bmatrix}
 E(\frac{e^{\beta_0+\beta_1X}}{(1+e^{\beta_0+\beta_1X})^2}) & E(\frac{Xe^{\beta_0+\beta_1X}}{(1+e^{\beta_0+\beta_1X})^2})  \\
 E(\frac{Xe^{\beta_0+\beta_1X}}{(1+e^{\beta_0+\beta_1X})^2}) & E(\frac{X^2 e^{\beta_0+\beta_1X}}{(1+e^{\beta_0+\beta_1X})^2})  
-\end{array}\right]$$ 
+\end{bmatrix}$$ 
 
 For simplification, we can denote each elements as $i_{00}$,$i_{01}$,$i_{10}$,$i_{11}$.  
 
