@@ -100,7 +100,7 @@ $$N = \frac{(Z_\alpha + e^{-\frac{\beta_1^2}{4}} Z_\beta)^2 } {e^{\beta_0}\beta_
 
 1. Heieh et al.(1998)'s Approximation
 
-Heieh et al.(1998) developed a sample size formula from a different angle. Instead of using fisher information matrix, they treated the test as a two sample T-test by assuming $P(X_1|Y=1) \sim N(m_1,\sigma_1)$, $P(X_2|Y=0) \sim N(m_2, \sigma_2)$, and $\sigma_1 = \sigma_2 = \sigma$. Define $\Delta$ is the difference between null hypothsised value and true value, then they obtained the sample size formula for equal sample size condition.
+Heieh et al.(1998) developed a sample size formula from a different angle. Instead of using fisher information matrix, they treated the test as a two sample T-test by assuming $P(X_1 | Y=1) \sim N(m_1,\sigma_1)$, $P(X_2 | Y=0) \sim N(m_2, \sigma_2)$, and $\sigma_1 = \sigma_2 = \sigma$. Define $\Delta$ is the difference between null hypothsised value and true value, then they obtained the sample size formula for equal sample size condition.
  
 $$n = \frac{(Z_{1-\alpha/2}+ Z_{1-\beta})^2}{\frac{\Delta^2}{2(\sigma_1^2 + \sigma_2^2)}}$$ 
 
