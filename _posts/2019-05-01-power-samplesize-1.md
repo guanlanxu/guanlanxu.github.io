@@ -52,7 +52,7 @@ Then fisher information matrix is:
 
 
 
-$$\mathbf{I}= X^TWX = \left( \begin{array}{cc}
+$$\mathbf{I}= X^TWX = \left( \begin{array}{rr}
   E(\frac{e^{\beta_0+\beta_1X}}{(1+e^{\beta_0+\beta_1X})^2}) & E(\frac{Xe^{\beta_0+\beta_1X}}{(1+e^{\beta_0+\beta_1X})^2}) \\\\
   E(\frac{Xe^{\beta_0+\beta_1X}}{(1+e^{\beta_0+\beta_1X})^2}) & E(\frac{X^2 e^{\beta_0+\beta_1X}}{(1+e^{\beta_0+\beta_1X})^2})  
  \end{array} \right)$$
@@ -61,7 +61,7 @@ For simplification, we can denote each elements as $i_{00}$,$i_{01}$,$i_{10}$,$i
 
 
 $$
-\left[ \begin{array}{cc}
+\left[ \begin{array}{rr}
     i_{00} & i_{01} \\\\ 
     i_{10} & i_{11}  
   \end{array} \right]
