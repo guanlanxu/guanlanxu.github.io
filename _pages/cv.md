@@ -22,7 +22,7 @@ Work experience
 ======
 * 2018 - Current : Research Assistant
   * University of Iowa
-  * Duties included: Conduct psychometric research and data analysis.
+  * Duties included: Data collection, cleaning, and analysis. 
   * Supervisor: Professor Shen
 
 * 2015 - 2016: Lecturer 
