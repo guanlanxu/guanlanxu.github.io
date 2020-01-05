@@ -12,9 +12,9 @@ tags:
 
 ## Introduction
 
-A longtudinal dataset refers to datasets that contain two or more repeated measures. One big feature of this kind of dataset is the high correlations among those repeated measures, which violates the basic assumption of ANOVA and regression. The PROC MIXED (or PROC GEE) in SAS provides ways to specify the repeated measures. With an appropriatly specified covariance structure, PROC MIXED is able to conduct longitudinal analysis conveniently.  
+A longtudinal dataset refers to datasets that contain two or more repeated measures. One big feature of this kind of dataset is the high correlations among those repeated measures, which violates the basic assumption of ANOVA and regression. The Proc Mixed (or Proc GEE) in SAS provides ways to specify the repeated measures. With an appropriatly specified covariance structure, Proc Mixed is able to conduct longitudinal analysis conveniently.  
 
-In SAS, researchers can test a wide range of covariance structures directly in PROC MIXED. A flexible covariance structure allows more accuracy but requires many estimations; a restrictive covariance structure would save power but may raise bias issue. In the case of samll sample size and multiple-group comparisons, researchers have to select the regression model and covariance structure very considerately to ensure an acceptable power. 
+In SAS, researchers can test a wide range of covariance structures directly in Proc Mixed. A flexible covariance structure allows more accuracy but requires many estimations; a restrictive covariance structure would save power but may raise bias issue. In the case of samll sample size and multiple-group comparisons, researchers have to select the regression model and covariance structure very considerately to ensure an acceptable power. 
 
 
 ## Procedure
@@ -38,12 +38,12 @@ In SAS, researchers can test a wide range of covariance structures directly in P
 Below is an example for further illustration. 
 
 ### Dataset
-This dataset contains 119 observations, 6 evenly spaced time points for each observation. The 119 observations had been randomly assigned to 6 groups (1 control group and 5 treatments) before the experiment. There were no missing or dropouts during the whole experiment. Since this dataset is very clean and ideal, we can conduct longitudinal analysis directly upon it. 
+This dataset contains 119 observations, 6 evenly spaced time points for each observation. The 119 observations had been randomly assigned to 6 groups (1 control group and 5 treatments) before the experiment. There were no missing or dropouts during the whole experiment. Since this dataset is very clean and well balanced, we can conduct longitudinal analysis directly without further processing. 
 
-Note: If missing or dropouts is presented, we would need to consider the missing mechanism and choose appropriate method to treat the missings. If the experiment is not balanced designed, we may consider to scale the  values to make them comparable. 
+Note: If missing or dropouts is presented, we would need to consider the missing mechanism and choose an appropriate method to treat the missing. If the experiment is not balance-designed, we may consider scaling the  values to make the repeated measures comparable. 
 
 ### Purpose
-The purpose of this example is to assess which treatment(s) is outperformed the control group. Since this example doesn't interested in individual differences, I will use marginal mean model instead of mixed effect model. 
+The purpose of this example is to assess which treatment(s) is outperformed the control group. Since this example is not interested in investigating individual differences, I will use marginal mean model instead of mixed effect model. 
 
 
 
