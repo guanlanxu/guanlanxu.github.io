@@ -19,12 +19,12 @@ In SAS, researchers can test a wide range of covariance structures directly in P
 
 ## Procedure
 
-1. Descriptive Statistics and Overal Mean Trajectory
+1.Descriptive Statistics and Overal Mean Trajectory
 
 The descriptive statistics and overal mean trajectory is able to provide us a better piscture of the dataset. Although at this stage we cannot select model soly based on it, we can still get some implications about the trend, which can help us to test models efficiently in later step. 
 
 
-2. Normality Test
+2.Normality Test
 
 Normality is an assumption of Proc Mixed. If the normality assumption is violated, Proc GEE has to be used. GEE is able to build model for non-normal samples, however, one disadvantage is that when choosing covariance structure, the Proc GEE in SAS only supports homogeneous covariance structure. Heterogeneous covariance structure cannot be tested. 
 
