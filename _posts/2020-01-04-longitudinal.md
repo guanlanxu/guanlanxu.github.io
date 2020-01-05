@@ -20,26 +20,20 @@ In SAS, researchers can test a wide range of covariance structures directly in P
 ## Procedure
 
 1. Descriptive Statistics and Overal Mean Trajectory
-
 The descriptive statistics and overal mean trajectory is able to provide us a better piscture of the dataset. Although at this stage we cannot select model soly based on it, we can still get some implications about the trend, which can help us to test models efficiently in later step. 
 
-
 2. Normality Test
-
 Normality is an assumption of Proc Mixed. If the normality assumption is violated, Proc GEE has to be used. GEE is able to build model for non-normal samples, however, one disadvantage is that when choosing covariance structure, the Proc GEE in SAS only supports homogeneous covariance structure. Heterogeneous covariance structure cannot be tested. 
 
 3. Choose Covariance Structure
-
 The most saturated covariance structure is the unstructured structure (UN). Simpler covariance structures can be tested against the UN by LRT (from Proc Mixed) or QIC (from Proc GEE).
 
 
 4. Select Model
-
 The most saturated model is marginal mean response profile model. After choosing appropriate covariance structure, we can build the marginal mean response profile model using the chosen covariance structure and test simpler models against it by LRT, AIC, or QIC, depending on whether the simpler model is nested within the mean response profile model as well as whether the normality assumption is hold.
 
 
 5. Conduct Analysis and Interpret the Result.
-
 After both the covariance structure and the model have been selected, we can conduct the longitudinal analysis and obtain the parameter estimates from SAS output. 
 
 
@@ -49,14 +43,11 @@ After both the covariance structure and the model have been selected, we can con
 Below is an example for further illustration. 
 
 1. Dataset
-
 This dataset contains 119 observations, 6 evenly spaced time points for each observation. The 119 observations had been randomly assigned to 6 groups (1 control group and 5 treatments) before the experiment. There were no missing or dropouts during the whole experiment. Since this dataset is very clean and ideal, we can conduct longitudinal analysis directly upon it. 
-
 
 Note: If missing or dropouts is presented, we would need to consider the missing mechanism and choose appropriate method to treat the missings. If the experiment is not balanced designed, we may consider to scale the  values to make them comparable. 
 
 2. Purpose
-
 The purpose of this example is to assess which treatment(s) is outperformed the control group. Since this example doesn't interested in individual differences, I will use marginal mean model instead of mixed effect model. 
 
 
