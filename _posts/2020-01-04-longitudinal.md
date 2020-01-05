@@ -19,12 +19,12 @@ In SAS, researchers can test a wide range of covariance structures directly in P
 
 ## Procedure
 
-1.Descriptive Statistics and Overal Mean Trajectory
+1. Descriptive Statistics and Overal Mean Trajectory
 
 The descriptive statistics and overal mean trajectory is able to provide us a better piscture of the dataset. Although at this stage we cannot select model soly based on it, we can still get some implications about the trend, which can help us to test models efficiently in later step. 
 
 
-2.Normality Test
+2. Normality Test
 
 Normality is an assumption of Proc Mixed. If the normality assumption is violated, Proc GEE has to be used. GEE is able to build model for non-normal samples, however, one disadvantage is that when choosing covariance structure, the Proc GEE in SAS only supports homogeneous covariance structure. Heterogeneous covariance structure cannot be tested. 
 
@@ -68,15 +68,15 @@ The descriptive statistics are shown in Table 1.
 The mean trajectory of six groups over time is shown in Figure 1. 
 
 
-![](des.png){ width=50% }
+![]({{ guanlanxu.github.io }}/images/des.png)
 
-![](meantraj.png){ width=50% }
+![]({{ guanlanxu.github.io }}/images/meantraj.png)
 
 From Figure 1, we can see a strong linear trend evidence. This gives us implication to test linear model in model selection. Moreover, we can also see that the means of six conditions at baseline are very close to each other, which suggests that the randomization is successful. Considering that the sample size of this dataset is small (n≤20 for each condition), we decided to omit the treatment effect at the baseline to gain power. 
 
 4. Normality Check
 
-![](norm2.png){ width=50% }
+![]({{ guanlanxu.github.io }}/images/norm2.png)
 
 To test the normality assumption, we conducted Shapiro-Wilk test for each group. The results are shown in Table 2. None of the p-values are larger than 0.05. Hence, the normality assumption is retained. We will use Proc Mixed model in our following analysis. 
 
@@ -91,12 +91,12 @@ The correlations (upper right corner) and covariances (lower left corner) under 
 
 From Table 3, we can see that the variances ranged from 69.21 to 22.56. To test homogeneity, we conducted an Fmax test and resulted in rejection of homogeneity (Fmax = 3.07; df = 6, 118). In table 4, all heterogeneous covariance structures out performed their corresponding homogeneous structure with smaller AIC. The -2 log likelihood ratio tests were all significant, indicating that UN worked best. 
 
-5. Model Selection
+6. Model Selection
 
 Models were compared under UN with Proc Mixed procedure. Linear, quadratic, cubic, quartic, and response profile models were tested and compared. The LRTs were conducted between linear and quadratic models, quadratic and cubic models, and cubic and quartic models. AIC was used to compare fit among all models. Results are shown in table 5. 
 
 
-![](model.png){ width=50% }
+![]({{ guanlanxu.github.io }}/images/model.png)
 
 
 The LRT rejected all simpler models, so as AIC. Results indicated that Response Profile model provided the best fit to the data. However, considering the small sample size and the clear linear trend in marginal means, we still selected linear model. We will justify linear model using residual plot in later section. For now, the linear mean model that used for this example is: 
@@ -111,15 +111,15 @@ Y = beta0 +  time + time * beta1 * Treatment1 + time * beta2 * Treatment2 + time
 *Time is assumed to be continuous;
 *Error is normally distributed and centered at 0.
 
-6. Results
+7. Results
 
 Residuals were plotted against predicted mean for model evaluation (Figure 3). From the plot, we didn’t observe a strong curvilinear patterns; the trend was quite linear, suggesting that linear model worked well. In addition, the normality assumption was also met quite well. 
 
-![](ResPlot.png){ width=50% }
+![]({{ guanlanxu.github.io }}/images/ResPlot.png)
 
 
 
-![](Result.png){ width=50% }
+![]({{ guanlanxu.github.io }}/images/Result.png)
 
 
 
@@ -128,10 +128,10 @@ The parameter estimates derived from a linear mean model are shown in Table 6. T
 
 We also conducted contrasts among treatments, with results shown in Table 7. Two pairs of comparisons were significant at alpha = 0.05 level. While it did not differ from the control group (p = 0.55), Treatment B was significantly different from both Treatments A and E (treatment A vs treatment B, p=0.04; treatment B vs treatment E, p = 0.02) , which revealed that the weight gain effect of treatment B was closer to the effect of the control group and the effect of treatment A and E were slightly but not significantly different from the effect of the control group. Figure 4 is a conceptual graph of the interrelationship between these four groups. 
 
-![](concept.png){ width=50% }
+![]({{ guanlanxu.github.io }}/images/concept.png)
 
 
-7. Discussion and Conclusion
+8. Discussion and Conclusion
 
 Our above analysis found that different treatments have different levels of effectiveness. Treatment B was found to be less effective than Treatments A as well as treatment E. One way to prove the relationship between treatment A, B, E and the control group is to make treatment B as the reference group. We can easily find significant effect in treatment E. 
 
