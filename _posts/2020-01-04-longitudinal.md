@@ -41,8 +41,6 @@ The most saturated model is marginal mean response profile model. After choosing
 5. Conduct Analysis and Interpret the Result.
 
 After both the covariance structure and the model have been selected, we can conduct the longitudinal analysis and obtain the parameter estimates from SAS output. 
-## The Dataset
-
 
 
 
