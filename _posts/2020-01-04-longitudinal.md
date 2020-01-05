@@ -19,22 +19,17 @@ In SAS, researchers can test a wide range of covariance structures directly in P
 
 ## Procedure
 
-1. Descriptive Statistics and Overal Mean Trajectory
-The descriptive statistics and overal mean trajectory is able to provide us a better piscture of the dataset. Although at this stage we cannot select model soly based on it, we can still get some implications about the trend, which can help us to test models efficiently in later step. 
+1. Descriptive Statistics and Overal Mean Trajectory: The descriptive statistics and overal mean trajectory is able to provide us a better piscture of the dataset. Although at this stage we cannot select model soly based on it, we can still get some implications about the trend, which can help us to test models efficiently in later step. 
 
-2. Normality Test
-Normality is an assumption of Proc Mixed. If the normality assumption is violated, Proc GEE has to be used. GEE is able to build model for non-normal samples, however, one disadvantage is that when choosing covariance structure, the Proc GEE in SAS only supports homogeneous covariance structure. Heterogeneous covariance structure cannot be tested. 
+2. Normality Test: Normality is an assumption of Proc Mixed. If the normality assumption is violated, Proc GEE has to be used. GEE is able to build model for non-normal samples, however, one disadvantage is that when choosing covariance structure, the Proc GEE in SAS only supports homogeneous covariance structure. Heterogeneous covariance structure cannot be tested. 
 
-3. Choose Covariance Structure
-The most saturated covariance structure is the unstructured structure (UN). Simpler covariance structures can be tested against the UN by LRT (from Proc Mixed) or QIC (from Proc GEE).
+3. Choose Covariance Structure: The most saturated covariance structure is the unstructured structure (UN). Simpler covariance structures can be tested against the UN by LRT (from Proc Mixed) or QIC (from Proc GEE).
 
 
-4. Select Model
-The most saturated model is marginal mean response profile model. After choosing appropriate covariance structure, we can build the marginal mean response profile model using the chosen covariance structure and test simpler models against it by LRT, AIC, or QIC, depending on whether the simpler model is nested within the mean response profile model as well as whether the normality assumption is hold.
+4. Select Model: The most saturated model is marginal mean response profile model. After choosing appropriate covariance structure, we can build the marginal mean response profile model using the chosen covariance structure and test simpler models against it by LRT, AIC, or QIC, depending on whether the simpler model is nested within the mean response profile model as well as whether the normality assumption is hold.
 
 
-5. Conduct Analysis and Interpret the Result.
-After both the covariance structure and the model have been selected, we can conduct the longitudinal analysis and obtain the parameter estimates from SAS output. 
+5. Conduct Analysis and Interpret the Result: After both the covariance structure and the model have been selected, we can conduct the longitudinal analysis and obtain the parameter estimates from SAS output. 
 
 
 
@@ -42,17 +37,17 @@ After both the covariance structure and the model have been selected, we can con
 
 Below is an example for further illustration. 
 
-1. Dataset
+### Dataset
 This dataset contains 119 observations, 6 evenly spaced time points for each observation. The 119 observations had been randomly assigned to 6 groups (1 control group and 5 treatments) before the experiment. There were no missing or dropouts during the whole experiment. Since this dataset is very clean and ideal, we can conduct longitudinal analysis directly upon it. 
 
 Note: If missing or dropouts is presented, we would need to consider the missing mechanism and choose appropriate method to treat the missings. If the experiment is not balanced designed, we may consider to scale the  values to make them comparable. 
 
-2. Purpose
+### Purpose
 The purpose of this example is to assess which treatment(s) is outperformed the control group. Since this example doesn't interested in individual differences, I will use marginal mean model instead of mixed effect model. 
 
 
 
-3. Descriptive Statistics
+### Descriptive Statistics
 
 The descriptive statistics are shown in Table 1. 
 
@@ -65,13 +60,13 @@ The mean trajectory of six groups over time is shown in Figure 1.
 
 From Figure 1, we can see a strong linear trend evidence. This gives us implication to test linear model in model selection. Moreover, we can also see that the means of six conditions at baseline are very close to each other, which suggests that the randomization is successful. Considering that the sample size of this dataset is small (n≤20 for each condition), we decided to omit the treatment effect at the baseline to gain power. 
 
-4. Normality Check
+### Normality Check
 
 ![]({{ guanlanxu.github.io }}/images/norm2.png)
 
 To test the normality assumption, we conducted Shapiro-Wilk test for each group. The results are shown in Table 2. None of the p-values are larger than 0.05. Hence, the normality assumption is retained. We will use Proc Mixed model in our following analysis. 
 
-5. Covariance Structure
+### Covariance Structure
 
 Covariance structure was selected under Proc Mixed procedure in SAS. We first built a maximal mean response profile model using an unstructured (UN) covariance structure. The treatment effect at baseline was omitted. Six covariance structures were further tested: compound symmetry (CS),  heterogeneous compound symmetry (CSH), autoregressive (AR(1)), and heterogeneous autoregressive (ARH(1)), toeplitz (TOEP), and heterogeneous toeplitz (TOEPH). 
 
@@ -82,7 +77,7 @@ The correlations (upper right corner) and covariances (lower left corner) under 
 
 From Table 3, we can see that the variances ranged from 69.21 to 22.56. To test homogeneity, we conducted an Fmax test and resulted in rejection of homogeneity (Fmax = 3.07; df = 6, 118). In table 4, all heterogeneous covariance structures out performed their corresponding homogeneous structure with smaller AIC. The -2 log likelihood ratio tests were all significant, indicating that UN worked best. 
 
-6. Model Selection
+### Model Selection
 
 Models were compared under UN with Proc Mixed procedure. Linear, quadratic, cubic, quartic, and response profile models were tested and compared. The LRTs were conducted between linear and quadratic models, quadratic and cubic models, and cubic and quartic models. AIC was used to compare fit among all models. Results are shown in table 5. 
 
@@ -94,15 +89,15 @@ The LRT rejected all simpler models, so as AIC. Results indicated that Response 
 
 Y = beta0 +  time + time * beta1 * Treatment1 + time * beta2 * Treatment2 + time * beta3 * Treatment3 + time * beta4 * Treatment4 + time * beta5 * Treatment5 + error, where
 
-*Treatment1 = 1 if in treatment A, 0 otherwise;
-*Treatment2 = 1 if in treatment B, 0 otherwise;
-*Treatment3 = 1 if in treatment C, 0 otherwise;
-*Treatment4 = 1 if in treatment D, 0 otherwise;
-*Treatment5 = 1 if in treatment E, 0 otherwise;
-*Time is assumed to be continuous;
-*Error is normally distributed and centered at 0.
+* Treatment1 = 1 if in treatment A, 0 otherwise;
+* Treatment2 = 1 if in treatment B, 0 otherwise;
+* Treatment3 = 1 if in treatment C, 0 otherwise;
+* Treatment4 = 1 if in treatment D, 0 otherwise;
+* Treatment5 = 1 if in treatment E, 0 otherwise;
+* Time is assumed to be continuous;
+* Error is normally distributed and centered at 0.
 
-7. Results
+### Results
 
 Residuals were plotted against predicted mean for model evaluation (Figure 3). From the plot, we didn’t observe a strong curvilinear patterns; the trend was quite linear, suggesting that linear model worked well. In addition, the normality assumption was also met quite well. 
 
@@ -122,7 +117,7 @@ We also conducted contrasts among treatments, with results shown in Table 7. Two
 ![]({{ guanlanxu.github.io }}/images/concept.png)
 
 
-8. Discussion and Conclusion
+### Discussion and Conclusion
 
 Our above analysis found that different treatments have different levels of effectiveness. Treatment B was found to be less effective than Treatments A as well as treatment E. One way to prove the relationship between treatment A, B, E and the control group is to make treatment B as the reference group. We can easily find significant effect in treatment E. 
 
