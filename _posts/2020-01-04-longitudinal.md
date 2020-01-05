@@ -86,7 +86,7 @@ Covariance structure was selected under Proc Mixed procedure in SAS. We first bu
 
 The correlations (upper right corner) and covariances (lower left corner) under unstructured model are shown in Table 3. Variances of each time are shown in the diagonal. The log-likelihood results are shown in Table 4. 
 
-![](CovStr.png){ width=50% }
+![]({{ guanlanxu.github.io }}/images/CovStr.png)
 
 
 From Table 3, we can see that the variances ranged from 69.21 to 22.56. To test homogeneity, we conducted an Fmax test and resulted in rejection of homogeneity (Fmax = 3.07; df = 6, 118). In table 4, all heterogeneous covariance structures out performed their corresponding homogeneous structure with smaller AIC. The -2 log likelihood ratio tests were all significant, indicating that UN worked best. 
