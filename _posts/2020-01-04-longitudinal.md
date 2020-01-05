@@ -137,4 +137,4 @@ Our above analysis found that different treatments have different levels of effe
 
 However, going back to the purpose of this example, we can conclude that no treatment outperformed the control group. None of the 5 Treatments was effective. 
 
-Example code can be found [here](https://github.com/guanlanxu/LongitudinalAnalysis)
+[Example code can be found [here](https://github.com/guanlanxu/LongitudinalAnalysis)]
