@@ -54,7 +54,7 @@ The descriptive statistics are shown in Table 1.
 The mean trajectory of six groups over time is shown in Figure 1. 
 
 
-![]({{ guanlanxu.github.io }}/images/des.png)
+![]({{ guanlanxu.github.io }}/images/des.png | width=100) 
 
 ![]({{ guanlanxu.github.io }}/images/meantraj.png)
 
