@@ -13,9 +13,8 @@ Education
 ======
 * Ph.D in Educational Measurement and Statistics, University of Iowa, 2021 (expected)
 * M.S  in Biostatistics, University of Iowa, 2020 (expected)
-* M.A  in Educational Measurement and Statistics, University of Iowa, 2017
-
-
+* M.A  in Classical Chinese Literature, Nanjing University, 2011
+* B.A  in Classical Chinese Literature, Nanjing University, 2008
 
 
 Work experience
@@ -23,12 +22,12 @@ Work experience
 * 2018 - Current : Research Assistant
   * University of Iowa
   * Duties included: Data collection, cleaning, and analysis. 
-  * Supervisor: Professor Shen
+  * Supervisor: Professor Vispoel
 
 * 2015 - 2016: Lecturer 
   * University of Pittsburgh
-  * Duties included: Lecture and coordinate 1st-year undergraduate courses. 
-  * Supervisor: Miss Wei
+  * Duties included: Lecture and coordinate undergraduate courses. 
+  * Supervisor: Professor Wei
   
 * 2013 - 2015 : Teaching Assistant
   * University of Iowa
@@ -46,14 +45,17 @@ Work experience
   
 Skills
 ======
-* R programing
+* R, SAS programing
 * Statistical Modeling
   * Generalized Linear Model
   * Categorical Data Analysis
+  * Longitudinal Data Analysis
   * Bayesian Statistics
+  * Predictive Models
 * Psychometric Analysis
   * Structural Equation Modeling
   * Item Response Theory
+  * Generalizability Theory
 
 
 Publications
