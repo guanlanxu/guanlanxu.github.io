@@ -1,27 +1,27 @@
 ---
-title: 'Multiple-group Comparision in Longitudinal Analysis'
+title: 'Multiple-group Comparison in Longitudinal Analysis'
 subtitle: "A Tutorial"
 date: 2020-01-04
 permalink: /posts/2020/01/longitudinal/
 tags:
   - longitudinal
   - sample size
-  - multiple group comparision
+  - multiple group comparison
 ---
 
 
 ## Introduction
 
-A longtudinal dataset refers to datasets that contain two or more repeated measures. One big feature of this kind of dataset is the high correlations among those repeated measures, which violates the basic assumption of ANOVA and regression. The Proc Mixed (or Proc GEE) in SAS provides ways to specify the repeated measures. With an appropriatly specified covariance structure, Proc Mixed is able to conduct longitudinal analysis conveniently.  
+A longitudinal dataset refers to datasets that contain two or more repeated measures. One big feature of this kind of dataset is the high correlations among those repeated measures, which violates the basic assumption of ANOVA and regression. The Proc Mixed (or Proc GEE) in SAS provides ways to specify the repeated measures. With an appropriately specified covariance structure, Proc Mixed is able to conduct longitudinal analysis conveniently.  
 
-In SAS, researchers can test a wide range of covariance structures directly in Proc Mixed. A flexible covariance structure allows more accuracy but requires many estimations; a restrictive covariance structure would save power but may raise bias issue. In the case of samll sample size and multiple-group comparisons, researchers have to select the regression model and covariance structure very considerately to ensure an acceptable power. 
+In SAS, researchers can test a wide range of covariance structures directly in Proc Mixed. A flexible covariance structure allows more accuracy but requires many estimations; a restrictive covariance structure would save power but may raise bias issue. In the case of small sample size and multiple-group comparisons, researchers have to select the regression model and covariance structure very considerately to ensure an acceptable power.
 
 
 ## Procedure
 
-1. Descriptive Statistics and Overal Mean Trajectory: The descriptive statistics and overal mean trajectory is able to provide us a better piscture of the dataset. Although at this stage we cannot select model soly based on it, we can still get some implications about the trend, which can help us to test models efficiently in later step. 
+1. Descriptive Statistics and Overall Mean Trajectory: The descriptive statistics and overall mean trajectory is able to provide us a better picture of the dataset. Although at this stage we cannot select model solely based on it, we can still get some implications about the trend, which can help us to test models efficiently in later step. 
 
-2. Normality Test: Normality is an assumption of Proc Mixed. If the normality assumption is violated, Proc GEE has to be used. GEE is able to build model for non-normal samples, however, one disadvantage is that when choosing covariance structure, the Proc GEE in SAS only supports homogeneous covariance structure. Heterogeneous covariance structure cannot be tested. 
+2. Normality Test: Normality is an assumption of Proc Mixed. If the normality assumption is violated, Proc GEE has to be used. GEE is able to build model for non-normal samples; however, one disadvantage is that when choosing covariance structure, the Proc GEE in SAS only supports homogeneous covariance structure. Heterogeneous covariance structure cannot be tested. 
 
 3. Choose Covariance Structure: The most saturated covariance structure is the unstructured structure (UN). Simpler covariance structures can be tested against the UN by LRT (from Proc Mixed) or QIC (from Proc GEE).
 
@@ -40,7 +40,7 @@ Below is an example for further illustration.
 ### Dataset
 This dataset contains 119 observations, 6 evenly spaced time points for each observation. The 119 observations had been randomly assigned to 6 groups (1 control group and 5 treatments) before the experiment. There were no missing or dropouts during the whole experiment. Since this dataset is very clean and well balanced, we can conduct longitudinal analysis directly without further processing. 
 
-Note: If missing or dropouts is presented, we would need to consider the missing mechanism and choose an appropriate method to treat the missing. If the experiment is not balance-designed, we may consider scaling the  values to make the repeated measures comparable. 
+Note: If missing or dropouts is presented, we would need to consider the missing mechanism and choose an appropriate method to treat the missing. If the experiment is not balance-designed, we may consider scaling the values to make the repeated measures comparable. 
 
 ### Purpose
 The purpose of this example is to assess which treatment(s) is outperformed the control group. Since this example is not interested in investigating individual differences, I will use marginal mean model instead of mixed effect model. 
@@ -51,7 +51,8 @@ The purpose of this example is to assess which treatment(s) is outperformed the 
 
 The descriptive statistics are shown in Table 1. 
 
-The mean trajectory of six groups over time is shown in Figure 1. 
+The mean trajectory of six groups over time is shown in Figure 1.
+
 
 
 ![]({{ guanlanxu.github.io }}/images/des.png)
@@ -99,7 +100,7 @@ Y = beta0 +  time + time * beta1 * Treatment1 + time * beta2 * Treatment2 + time
 
 ### Results
 
-Residuals were plotted against predicted mean for model evaluation (Figure 3). From the plot, we didn’t observe a strong curvilinear patterns; the trend was quite linear, suggesting that linear model worked well. In addition, the normality assumption was also met quite well. 
+Residuals were plotted against predicted mean for model evaluation (Figure 3). From the plot, we didn’t observe a strong curvilinear pattern; the trend was quite linear, suggesting that linear model worked well. In addition, the normality assumption was also met quite well. 
 
 ![]({{ guanlanxu.github.io }}/images/ResPlot.png)
 
