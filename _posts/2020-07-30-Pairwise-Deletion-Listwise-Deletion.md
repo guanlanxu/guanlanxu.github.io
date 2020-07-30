@@ -20,11 +20,11 @@ Different form listwise deletion, pairwise deletion still includes the observati
 
 An example here is reliability analysis: the coefficient alpha. Coefficient alpha is calculated by
 
-$\frac{m}{m-1} *(\frac{\sum_{i \neq j}^m cov(x_i,x_j)}{var(x_{r})})$ 
+$$\frac{m}{m-1} *(\frac{\sum_{i \neq j}^m cov(x_i,x_j)}{var(x_{r})})$$ 
 
-where $m$ is number of items,$x_i$ is responses to $i^{th}$ item, $x_r$ is sum score from $x_1$ to $x_m$. This formula involves both covariances and variances in computation. Pairwise deletion will remove some pairs in computing covariances, however, used all available data in computing variances, which makes the nominator and denominator be inconsistent with each other, as a result, lowered the precision of the result. Paul D. Allison (2002) also noted that pairwise deletion may make correlation matrix not positive definite.
+where $m$ is number of items, $x_i$ is response to $i^{th}$ item, $x_r$ is sum score from $x_1$ to $x_m$. This formula involves both covariances and variances in computation. Pairwise deletion will remove some pairs in computing covariances, however, used all available data in computing variances, which makes the nominator and denominator be inconsistent with each other, as a result, lowered the precision of the result. Paul D. Allison (2002) also noted that pairwise deletion may make correlation matrix not positive definite.
 
-Pairwise deletion should be used in caution. Many software, such as SAS or SPSS, has make listwise deletion as the default. However, one should note that this is not the ultimate solution of handling missing values. Except for data-loss issue, listwise deletion may also bring bias if missing is not completely at random. Unfortunately, this missing mechanism most commonly happens in real life. This is where various imputation methods come in.  
+Pairwise deletion should be used in caution. Many software, such as SAS or SPSS, has made listwise deletion as the default. However, one should note that this is not the ultimate solution of handling missing values. Except for data-loss issue, listwise deletion may also bring bias if missing is not completely at random. Unfortunately, this missing mechanism most commonly happens in real life. This is where various imputation methods come in.  
 
 
 
