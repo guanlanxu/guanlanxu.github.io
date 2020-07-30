@@ -1,13 +1,16 @@
 ---
 title: "Pairwise Deletion v.s. Listwise Deletion"
-author: "Guanlan Xu"
-date: "7/30/2020"
-output: html_document
+date: 2020-07-30
+permalink: /posts/2020/07/Pairwise-Deletion-Listwise-Deletion/
+tags:
+  - missing data
+  - pairwise deletion
+  - listwise deletion
+  - reliability
+  - coefficient alpha
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+
 
 This summer I am very fortunate to have the chance to validate a newly developed statistical software. One thing I learned is the differences between pairwise deletion and listwise deletion. When both of these two methods are common practices in taking care of missing values, results can be different and choosing which method to use requires more consideration. 
 
