@@ -12,22 +12,25 @@ redirect_from:
 Education
 ======
 * Ph.D in Educational Measurement and Statistics, University of Iowa, 2021 (expected)
-* M.S  in Biostatistics, University of Iowa, 2020 (expected)
-* M.A  in Classical Chinese Literature, Nanjing University, 2011
-* B.A  in Classical Chinese Literature, Nanjing University, 2008
+* M.S  in Biostatistics, University of Iowa, 2021 (expected)
+* B.A & M.A in Classical Chinese Literature, Nanjing University, 20011
 
 
 Work experience
 ======
 * 2018 - Current : Research Assistant
   * University of Iowa
-  * Duties included: Data collection, cleaning, and analysis. 
-  * Supervisor: Professor Vispoel
+  * Duties included: Survey data collection, cleaning, and analysis.
+
+  
+* June 2020 - July 2020 : Psychometric Intern
+  * Alpine Testing Solutions
+  * Duties included: Validated a newly-developed statistical software with various well-known commercial software, such as Winsteps, SPSS, OpenBUGS, and R.
 
 * 2015 - 2016: Lecturer 
   * University of Pittsburgh
   * Duties included: Lecture and coordinate undergraduate courses. 
-  * Supervisor: Professor Wei
+
   
 * 2013 - 2015 : Teaching Assistant
   * University of Iowa
@@ -37,7 +40,7 @@ Work experience
 * 2011 - 2012 : Counselor
   * Nanjing Medical University
   * Duties included: Provide counseling service for unddergraduate students.
-  * Supervisor: Mr. Zhao
+
 
 
 
