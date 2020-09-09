@@ -13,15 +13,15 @@ Education
 ======
 * Ph.D in Educational Measurement and Statistics, University of Iowa, 2021 (expected)
 * M.S  in Biostatistics, University of Iowa, 2021 (expected)
-* B.A & M.A in Classical Chinese Literature, Nanjing University, 20011
+* B.A & M.A in Classical Chinese Literature, Nanjing University, 2011
 
 
-Work experience
+Work Experience
 ======
 * 2018 - Current : Research Assistant
   * University of Iowa
-  * Duties included: Survey data collection, cleaning, and analysis.
-
+  * Duties included: 
+    * Survey data collection, cleaning, and analysis.
   
 * June 2020 - July 2020 : Psychometric Intern
   * Alpine Testing Solutions
@@ -39,7 +39,7 @@ Work experience
   
 * 2011 - 2012 : Counselor
   * Nanjing Medical University
-  * Duties included: Provide counseling service for unddergraduate students.
+  * Duties included: Provide counseling services for undergraduate students.
 
 
 
