@@ -96,19 +96,6 @@ Skills
 * Statistics: regression, generalized linear models, categorial/longitudinal models, experimental design, Bayesian modeling, predictive models, clustering
 * Psychometrics: item response theory, classical test theory, factor analysis, structural equation modeling, generalizability theory, equating, diagnostic models
 
-
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
 Awards
 ======
 * Feb. 2020: Blommers/Hieronymus/Feldt Fellowship
@@ -133,4 +120,19 @@ Training & Certificates
 * NAEP Data Training Workshop, Feb.  2020	  
 * SAS Certified Base Programmers for SAS 9, Nov. 2016
 * SAS Certified Advanced Programmers for SAS9, Nov. 2016	  
+
+
+Publications
+======
+  <ul>{% for post in site.publications %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+  
+Talks
+======
+  <ul>{% for post in site.talks %}
+    {% include archive-single-talk-cv.html %}
+  {% endfor %}</ul>
+  
+
 
