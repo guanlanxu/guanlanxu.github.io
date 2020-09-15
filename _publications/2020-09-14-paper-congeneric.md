@@ -9,8 +9,3 @@ citation: 'Walter P. Vispoel, Guanlan Xu & Murat Kilinc (2020) Expanding G-Theor
 ---
 
 
-This paper is about Generalizability Theory and congeneric models.
-
-
-
-Recommended citation: Walter P. Vispoel, Guanlan Xu & Murat Kilinc (2020) Expanding G-Theory Models to Incorporate Congeneric Relationships: Illustrations Using the Big Five Inventory, Journal of Personality Assessment, DOI: 10.1080/00223891.2020.1808474
