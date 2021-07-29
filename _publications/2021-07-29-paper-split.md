@@ -1,7 +1,7 @@
 ---
 title: "Using Parallel Splits with Self-Report and Other Measures to Enhance Precision in Generalizability Theory Analyses"
 collection: publications
-permalink: /publication/2021-07-29-paper-congeneric
+permalink: /publication/2021-07-29-paper-split
 excerpt: "This paper is about Parallel Splits and Generalizability Theory"
 date: 2021-07-29
 venue: "Journal of Personality Assessment"
