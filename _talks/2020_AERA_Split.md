@@ -10,4 +10,4 @@ location: "San Francisco, CA"
 ---
 
 
-Paper presented at the annual meeting of the American Educational Research Association, San Francisco, CA.
+Poster presented at the annual meeting of the American Educational Research Association, San Francisco, CA.
