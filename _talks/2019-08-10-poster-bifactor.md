@@ -2,7 +2,7 @@
 title: "Using the Bifactor Model to Quantify Effects of Response Styles"
 author: "Walter P. Vispoel, Mingqin Zhang, Murat Kilinc, Guanlan Xu, Ismail Dilek,and Wei S. Schneider"
 collection: talks
-type: "Poster"
+type: "Paper"
 permalink: /talks/2019-08-10-poster-bifactor
 venue: "American Psychological Association 2019"
 date: 2019-08-10
