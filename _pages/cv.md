@@ -24,55 +24,43 @@ Work & Research Experience
 
 * 2018 - 2021 : Research Assistant	
   * The University of Iowa  
-    * Designed questionnaires and collected data from 800+ participants through Qualtrics
-    * Compiled 8+ datasets using R and SAS to handle no-response/missing/invalid situations
-    * Applied psychometric models on 10+ datasets using R, SAS, SPSS, Mplus, FlexMIRT, and GENOVA
-    * Created tables, graphs, code supplement, and summarized results using R, Markdown, and LaTex
-    * Published 3 papers on peer-reviewed journals and presented 15+ papers on national conferences 
-    * Collaborated with other research members regularly through emails and in-person/online meetings
+    * Collected, cleaned, and analyzed various types of datasets. 
+    * Conducted psychometric research using R, SAS, SPSS, Mplus, FlexMIRT, and GENOVA. 
+
 
 * 2019 - 2020 : Preceptorship	
   * ACTNext
-    * Developed an innovative item response model through extensive mathematical and statistical derivations 
-    * Interpreted model parameters and estimated model parameters by optimization algorithms in R language
-    * Evaluated model performance on both simulated and large-scale operational data
-    * Communicated with team members and supervisors through emails and in-person/online meetings
-
+    * Developed an innovative item response model through extensive derivations and implemented it in R via optimization algorithms. 
+    * Evaluated model performance on both simulated and large-scale operational data.
   
 * June 2020 - July 2020 : Psychometric Intern
   * Alpine Testing Solutions
-    * Validated a newly developed statistical software by comparing results and examining the theoretical framework with other software like SAS, SPSS, R, Winsteps, etc.
-    * Reviewed and summarized 300+ pages literatures on clustering analysis and cheating detection
-    * Worked independently under supervisor’s guidance and communicated with the psych team through online meetings
-    * Delivered 2 presentations to 20+ attendees. Reported findings and provided practical recommendations for the psychometric team
+    * Validated a newly developed statistical software. 
+    * Investigated literatures on cheating detection. 
+    * Presented findings and recommendations to the psychometric team. 
 
 * 2017 - 2018: Statistical Tutor 
   * The University of Iowa  
     * Articulated statistical concepts and cleared confusions and misunderstandings for 10+ clients
-    * Tailored teaching methods and materials to meet clients’ individual needs
-    * Offered one-on-one and/or group tutoring lessons to accommodate clients’ different requirement
     * Reviewed and revised SAS/R codes to improve computing accuracy and efficiency
-    * Provided tips/recommendations and introduced resources for clients to enhance their comprehension and self-learning
+
 
 * 2015 - 2016: Lecturer 
   * University of Pittsburgh
-    * Developed course syllabus, guides, and materials according to curriculum and university standards
-    * Delivered daily lectures and interacted with students both in and after class to enhance students’ learning
+    * Developed course syllabus, guides, materials. 
+    * Delivered daily lectures and interacted with students both in and after classes.
     * Wrote and assembled quizzes/assignments/exams and designed analytic grading rubrics to diagnose students’ performance. Gave constructive feedback
-    * Presented a research paper on an international symposium
-
-
   
 * 2013 - 2015 : Teaching Assistant
   * The University of Iowa
-    * Effectively taught undergraduate students by constructing a task-based classroom 
-    * Provided group training and one-on-one practice for students to improve students’ performance
-    * Assisted course supervisor and collaborated with team teachers through regular meetings
+    * Lead a task-based classroom.  
+    * Provided after-calss training for students. 
+    * Assisted course supervisor and collaborated with team teachers through regular meetings.
 
   
 * 2011 - 2012 : Counselor
   * Nanjing Medical University
-    * Communicated regularly with students and parents through emails, messages, and face-to-face meetings. Supported and helped over 20+ students make smooth transitions to university
+    * Communicated regularly with students and parents. Supported and helped undergraduate students make smooth transitions to university.
     * Gave weekly talks to 300+ students to enhance the internal cohesion in classrooms. Kept a weekly journal on school's official website to record students' growth
     * Award: Third place in Professional Skills Competition at Nanjing Medical University
 
