@@ -4,10 +4,8 @@ author: "Xu, G., Zhang, J., Zhang., M., Zhao, K., Zhao, Z."
 collection: talks
 type: "Poster"
 permalink: /talks/2019_IEREA_lasso
-venue: "IEREA 2019"
+venue: "Iowa Educational Research and Evaluation Association 2019"
 date: 2019-11-20
-location: "Iowa City, IA"
+location: "Ankeny, IA"
 ---
 
-
-Poster presented at the annual meeting of the Iowa Educational Research and Evaluation Association, Ankeny: IA.
