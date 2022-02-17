@@ -22,16 +22,19 @@ Work & Research Experience
 * 2021 - present : Associate Research Scientist	
   * Pearson
 
-* 2018 - 2021 : Research Assistant	
-  * The University of Iowa  
-    * Collected, cleaned, and analyzed various types of datasets. 
-    * Conducted psychometric research using R, SAS, SPSS, Mplus, FlexMIRT, and GENOVA. 
-
 * 2021 - 2021 : Data Science Intern	
   * Corgee  
     * Conducted data queries and data cleaning. 
     * Compute important indices/statistics for visualization. 
     * Investigated sandbox opportuities and regulations to support company growth. 
+ 
+ 
+* 2018 - 2021 : Research Assistant	
+  * The University of Iowa  
+    * Collected, cleaned, and analyzed various types of datasets. 
+    * Conducted psychometric research using R, SAS, SPSS, Mplus, FlexMIRT, and GENOVA. 
+
+
 
 * 2019 - 2020 : Preceptorship	
   * ACTNext
@@ -90,7 +93,7 @@ Awards
 
 * Mar. 2020 & Mar. 2021: Research Award
   * College of Education, The University of Iowa
-    * This award is in recognition of an outstanding graduate student who has demonstrated outstanding research achievement through 2019 – 2020 and 2020 - 2021 academic years in educational measurement and statistics program at the University of Iowa. 
+    * This award is in recognition of an outstanding graduate student who has demonstrated outstanding research achievement through the academic year in educational measurement and statistics program at the University of Iowa. 
 
 
 * Feb. 2020: Blommers/Hieronymus/Feldt Fellowship
