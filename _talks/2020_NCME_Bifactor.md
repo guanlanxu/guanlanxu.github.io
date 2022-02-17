@@ -4,10 +4,8 @@ author: "Vispoel, W., Xu, G., Schneider, W., Zhang, M., Dilek, I., KILINC, M."
 collection: talks
 type: "Poster"
 permalink: /talks/2020_NCME_Bifactor
-venue: "NCME 2020"
+venue: "National Council on Measurement in Education 2020"
 date: 2020-04-16
-location: "San Francisco, CA"
+location: "Virtual"
 ---
 
-
-Poster presented at the annual meeting of the National Council on Measurement in Education, San Francisco, CA. 
