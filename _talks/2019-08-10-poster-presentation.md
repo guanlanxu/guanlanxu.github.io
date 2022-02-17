@@ -4,7 +4,7 @@ author: "Walter P. Vispoel, Carrie Morris, Murat Kilinc, Mingqin Zhang, Guanlan 
 collection: talks
 type: "Presentation"
 permalink: /talks/2019-08-10-presentation
-venue: "APA 2019"
+venue: "American Psychological Association 2019"
 date: 2019-08-10
 location: "Chicago"
 ---
