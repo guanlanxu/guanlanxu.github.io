@@ -88,13 +88,16 @@ Awards
   * College of Education, The University of Iowa
     * This award was established as a memorial for Professor Melvin R. Novick by the College of Education and Dr. Novick’s wife, Naomi. It is presented annually to a doctoral student who has shown outstanding academic performance and promise of the highest level of achievement inresearch in the field of educational measurement and research.
 
+* Mar. 2020 & Mar. 2021: Research Award
+  * College of Education, The University of Iowa
+    * This award is in recognition of an outstanding graduate student who has demonstrated outstanding research achievement through 2019 – 2020 and 2020 - 2021 academic years in educational measurement and statistics program at the University of Iowa. 
+
+
 * Feb. 2020: Blommers/Hieronymus/Feldt Fellowship
   * College of Education, The University of Iowa
     * This award is in recognition of an outstanding doctoral student who has demonstrated academic achievement, professional promise, and have completed one full year in educational measurement and statistics program at the University of Iowa. This award is made possible by gifts to the University of Iowa Foundation from friends and colleagues of Professors Blommers, Hieronymus, and Feldt.
 
-* Mar. 2020: Research Award
-  * College of Education, The University of Iowa
-    * This award is in recognition of an outstanding graduate student who has demonstrated outstanding research achievement through 2019 – 2020 academic year in educational measurement and statistics program at the University of Iowa. 
+
 
 * Oct. 2018: Third Place in 2018 Midwest Big Data Hackathon
   * The University of Iowa
