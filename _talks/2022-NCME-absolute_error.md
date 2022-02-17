@@ -1,6 +1,6 @@
 ---
 title: "Accuracy of Absolute Error Estimates within a G-theory SEM Framework"
-author: "Vispoel, W., Xu, G., Schneider, W. "
+author: "Vispoel, W., Hong, H., Lee, H., Xu, G. "
 collection: talks
 type: "Paper"
 permalink: /talks/2022-NCME-absolute_error
