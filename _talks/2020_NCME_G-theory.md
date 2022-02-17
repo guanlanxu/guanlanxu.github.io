@@ -10,4 +10,4 @@ location: "San Francisco, CA"
 ---
 
 
-Paper to be presented at the annual meeting of the National Council on Measurement in Education, San Francisco, CA. 
+Paper presented at the annual meeting of the National Council on Measurement in Education, San Francisco, CA. 
