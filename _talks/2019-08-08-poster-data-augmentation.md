@@ -4,7 +4,7 @@ author: "Guanlan Xu, Walter Vispoel"
 collection: talks
 type: "Poster"
 permalink: /talks/2019-08-08-poster-data-augmentation
-venue: "APA 2019"
+venue: "American Psychological Association 2019"
 date: 2019-08-08
 location: "Chicago"
 ---
