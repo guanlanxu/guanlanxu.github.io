@@ -11,10 +11,10 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Educational Measurement and Statistics, The University of Iowa, 2021 (expected)
+* Ph.D in Educational Measurement and Statistics, The University of Iowa
   * Minor: Mathematical Statistics
-* M.S  in Biostatistics, The University of Iowa, 2021 (expected)
-* B.A & M.A in Classical Chinese Literature, Nanjing University, 2011
+* M.S  in Biostatistics, The University of Iowa
+* B.A & M.A in Classical Chinese Literature, Nanjing University
 
 
 Work & Research Experience
@@ -78,16 +78,15 @@ Volunteer Experience
 ======
 * Aug. 12, 2018 : Van Cleaning 
   * Table to Table, Iowa City, IA 
-    * I cleaned 3 vans for food delivery
+    * Cleaned 3 vans for food delivery
 
-* Oct. 1, 2014 : Speaker & Visitor							
+* Oct. 1, 2014 : Speaker						
   * John F. Kennedy High School, Cedar Rapids, IA 
     * Delivered a 30-minute talk to over 20 audiences to introduce Chinese culture
-    * Developed communication skills through interactions with 50+ students during break/recess.
     
 * Sep. 2013 - Dec. 2013 : Social Worker
    * Pathways Adult Day Health Ctr, Iowa City, IA
-      * I shared my time, talents, interests and hobbies with over 30 clients.
+      * Shared my time, talents, interests and hobbies with over 30 clients.
 
 
 Skills
@@ -98,6 +97,10 @@ Skills
 
 Awards
 ======
+* Mar. 2021: Melvin R. Novick Award
+  * College of Education, The University of Iowa
+    * This award was established as a memorial for Professor Melvin R. Novick by the College of Education and Dr. Novick’s wife, Naomi. It is presented annually to a doctoral student who has shown outstanding academic performance and promise of the highest level of achievement inresearch in the field of educational measurement and research.
+
 * Feb. 2020: Blommers/Hieronymus/Feldt Fellowship
   * College of Education, The University of Iowa
     * This award is in recognition of an outstanding doctoral student who has demonstrated academic achievement, professional promise, and have completed one full year in educational measurement and statistics program at the University of Iowa. This award is made possible by gifts to the University of Iowa Foundation from friends and colleagues of Professors Blommers, Hieronymus, and Feldt.
@@ -117,6 +120,7 @@ Awards
 
 Training & Certificates
 ======
+* NCME Traing: Using Stan for Bayesian Psychometric Modeling,  Jun. 2021
 * NAEP Data Training Workshop, Feb.  2020	  
 * SAS Certified Base Programmers for SAS 9, Nov. 2016
 * SAS Certified Advanced Programmers for SAS9, Nov. 2016	  
