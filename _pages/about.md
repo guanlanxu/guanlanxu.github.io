@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD candidate and a graduate research assistant of Educational Measurement and Statistics at the University of Iowa. My research interests include factor analysis, structural equation modeling, item response theory, and other stastistical modeling. I am also pursuing a MS degree in Biostatistics at the University of Iowa. When I am not doing statistics or data analysis, I like to do yoga or play piano. 
+I am an associate research scientist at Pearson. I hold a Ph.D degree in Educational Measurement and Statistics and a M.S degree in Biostatistics from the University of Iowa. My personal interests include item response theory (IRT), structural equation modeling (SEM), equating, and other statistical and machine learning models. When I am not doing statistics or data analysis, I like to do yoga or play piano. 
 
 
  
