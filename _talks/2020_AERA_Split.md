@@ -2,12 +2,11 @@
 title: "Advantages of Using Split-Half Measures in Generalizability Theory Analyses"
 author: "Vispoel, W., Xu, G., Schneider, W., Zhang, M., Dilek, I., Kilinc, M."
 collection: talks
-type: "Paper"
+type: "Poster"
 permalink: /talks/2020_AERA_Split
-venue: "AERA 2020"
+venue: "American Educational Research Association 2020"
 date: 2020-04-17
 location: "San Francisco, CA"
 ---
 
 
-Poster presented at the annual meeting of the American Educational Research Association, San Francisco, CA.
