@@ -4,7 +4,7 @@ author: "Walter P. Vispoel, Mingqin Zhang, Murat Kilinc, Guanlan Xu, Ismail Dile
 collection: talks
 type: "Poster"
 permalink: /talks/2019-08-10-poster-bifactor
-venue: "APA 2019"
+venue: "American Psychological Association 2019"
 date: 2019-08-10
 location: "Chicago"
 ---
