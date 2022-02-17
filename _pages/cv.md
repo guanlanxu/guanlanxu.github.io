@@ -19,28 +19,31 @@ Education
 
 Work & Research Experience
 ======
-* 2019 - Present : Preceptorship	
+* 2021 - present : Associate Research Scientist	
+  * Pearson
+
+* 2018 - 2021 : Research Assistant	
+  * The University of Iowa  
+    * Designed questionnaires and collected data from 800+ participants through Qualtrics
+    * Compiled 8+ datasets using R and SAS to handle no-response/missing/invalid situations
+    * Applied psychometric models on 10+ datasets using R, SAS, SPSS, Mplus, FlexMIRT, and GENOVA
+    * Created tables, graphs, code supplement, and summarized results using R, Markdown, and LaTex
+    * Published 3 papers on peer-reviewed journals and presented 15+ papers on national conferences 
+    * Collaborated with other research members regularly through emails and in-person/online meetings
+
+* 2019 - 2020 : Preceptorship	
   * ACTNext
     * Developed an innovative item response model through extensive mathematical and statistical derivations 
     * Interpreted model parameters and estimated model parameters by optimization algorithms in R language
     * Evaluated model performance on both simulated and large-scale operational data
     * Communicated with team members and supervisors through emails and in-person/online meetings
 
-
-* 2018 - Present : Research Assistant	
-  * The University of Iowa  
-    * Designed questionnaires and collected data from 800+ participants through Qualtrics
-    * Compiled 8 datasets using R and SAS to handle no-response/missing/invalid cases
-    * Applied psychometric models on 10+ datasets using R, Mplus, and FlexMIRT
-    * Created tables, graphs, code supplement, and summarized results using R, Markdown, and LaTex
-    * Published 3 papers on peer-reviewed journals and presented 15+ papers on national conferences 
-    * Collaborated with the research group regularly through meetings, emails, and online platform like Zoom
   
 * June 2020 - July 2020 : Psychometric Intern
   * Alpine Testing Solutions
     * Validated a newly developed statistical software by comparing results and examining the theoretical framework with other software like SAS, SPSS, R, Winsteps, etc.
     * Reviewed and summarized 300+ pages literatures on clustering analysis and cheating detection
-    * Worked independently under supervisor’s guidance and communicated with the psych team through online platforms like Zoom and Teams
+    * Worked independently under supervisor’s guidance and communicated with the psych team through online meetings
     * Delivered 2 presentations to 20+ attendees. Reported findings and provided practical recommendations for the psychometric team
 
 * 2017 - 2018: Statistical Tutor 
@@ -73,27 +76,18 @@ Work & Research Experience
     * Gave weekly talks to 300+ students to enhance the internal cohesion in classrooms. Kept a weekly journal on school's official website to record students' growth
     * Award: Third place in Professional Skills Competition at Nanjing Medical University
 
-
-Volunteer Experience
-======
-* Aug. 12, 2018 : Van Cleaning 
-  * Table to Table, Iowa City, IA 
-    * Cleaned 3 vans for food delivery
-
-* Oct. 1, 2014 : Speaker						
-  * John F. Kennedy High School, Cedar Rapids, IA 
-    * Delivered a 30-minute talk to over 20 audiences to introduce Chinese culture
-    
-* Sep. 2013 - Dec. 2013 : Social Worker
-   * Pathways Adult Day Health Ctr, Iowa City, IA
-      * Shared my time, talents, interests and hobbies with over 30 clients.
-
-
 Skills
 ======
 * Computing: R/SAS/SPSS/Python, Winsteps/FlexMIRT, SQL, Mplus, Qualtrics, Windows, Unix
 * Statistics: regression, generalized linear models, categorial/longitudinal models, experimental design, Bayesian modeling, predictive models, clustering
 * Psychometrics: item response theory, classical test theory, factor analysis, structural equation modeling, generalizability theory, equating, diagnostic models
+
+Training & Certificates
+======
+* NCME Traing: Using Stan for Bayesian Psychometric Modeling,  Jun. 2021
+* NAEP Data Training Workshop, Feb.  2020	  
+* SAS Certified Base Programmers for SAS 9, Nov. 2016
+* SAS Certified Advanced Programmers for SAS9, Nov. 2016	  
 
 Awards
 ======
@@ -118,13 +112,6 @@ Awards
     * This award is in recognition of an outstanding student who is all-round developed in moral, intellectual, physical, and aesthetics among 30,000+ competitors in Wuxi City.
     
 
-Training & Certificates
-======
-* NCME Traing: Using Stan for Bayesian Psychometric Modeling,  Jun. 2021
-* NAEP Data Training Workshop, Feb.  2020	  
-* SAS Certified Base Programmers for SAS 9, Nov. 2016
-* SAS Certified Advanced Programmers for SAS9, Nov. 2016	  
-
 
 Publications
 ======
@@ -139,4 +126,17 @@ Talks
   {% endfor %}</ul>
   
 
+Volunteer Experience
+======
+* Aug. 12, 2018 : Van Cleaning 
+  * Table to Table, Iowa City, IA 
+    * Cleaned 3 vans for food delivery
+
+* Oct. 1, 2014 : Speaker						
+  * John F. Kennedy High School, Cedar Rapids, IA 
+    * Delivered a 30-minute talk to over 20 audiences to introduce Chinese culture
+    
+* Sep. 2013 - Dec. 2013 : Social Worker
+   * Pathways Adult Day Health Ctr, Iowa City, IA
+      * Shared my time, talents, interests and hobbies with over 30 clients.
 
