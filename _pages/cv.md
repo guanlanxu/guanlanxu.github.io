@@ -35,7 +35,6 @@ Work & Research Experience
     * Conducted psychometric research using R, SAS, SPSS, Mplus, FlexMIRT, and GENOVA. 
 
 
-
 * 2019 - 2020 : Preceptorship	
   * ACTNext
     * Developed an innovative item response model through extensive derivations and implemented it in R via optimization algorithms. 
@@ -47,7 +46,7 @@ Work & Research Experience
     * Investigated literatures on cheating detection. 
     * Presented findings and recommendations to the psychometric team. 
 
-* 2017 - 2018: Statistical Tutor 
+* 2017 - 2018: Statistics Tutor 
   * The University of Iowa  
     * Articulated statistical concepts and cleared confusions and misunderstandings for 10+ clients
     * Reviewed and revised SAS/R codes to improve computing accuracy and efficiency
@@ -56,20 +55,20 @@ Work & Research Experience
 * 2015 - 2016: Lecturer 
   * University of Pittsburgh
     * Developed course syllabus, guides, materials. 
-    * Delivered daily lectures and interacted with students both in and after classes.
-    * Wrote and assembled quizzes/assignments/exams and designed analytic grading rubrics to diagnose students’ performance. Gave constructive feedback
+    * Delivered daily lectures. Interacted with students both in and after classes.
+    * Wrote and assembled quizzes/assignments/exams and designed analytic grading rubrics to diagnose students’ performance. Gave constructive feedback.
   
 * 2013 - 2015 : Teaching Assistant
   * The University of Iowa
-    * Lead a task-based classroom.  
-    * Provided after-calss training for students. 
+    * Led a task-based classroom.  
+    * Supported students' learning via after-calss trainings. 
     * Assisted course supervisor and collaborated with team teachers through regular meetings.
 
   
 * 2011 - 2012 : Counselor
   * Nanjing Medical University
-    * Communicated regularly with students and parents. Supported and helped undergraduate students make smooth transitions to university.
-    * Gave weekly talks to 300+ students to enhance the internal cohesion in classrooms. Kept a weekly journal on school's official website to record students' growth
+    * Communicated regularly with students and parents. Supported undergraduate students make smooth transitions to university.
+    * Gave weekly talks to 300+ students to enhance classroom cohesion. Kept a weekly journal on school's official website to record students' growth
     * Award: Third place in Professional Skills Competition at Nanjing Medical University
 
 Skills
@@ -133,9 +132,9 @@ Volunteer Experience
 
 * Oct. 1, 2014 : Speaker						
   * John F. Kennedy High School, Cedar Rapids, IA 
-    * Delivered a 30-minute talk to over 20 audiences to introduce Chinese culture
+    * Delivered a 30-minute talk on Chinese culture to 20+ audiences
     
 * Sep. 2013 - Dec. 2013 : Social Worker
    * Pathways Adult Day Health Ctr, Iowa City, IA
-      * Shared my time, talents, interests and hobbies with over 30 clients.
+      * Shared my time, talents, interests and hobbies.
 
