@@ -1,0 +1,103 @@
+---
+title: "ppsy: An R Package for Operational Psychometric Work"
+author: "Guanlan Xu"
+date: "2023-04-18"
+permalink: /posts/2023/04/ppsy/
+tags:
+  - R Package
+  - Psychometrics
+  - Code Development
+---
+
+
+I haven't been updating my blog ever since graduation. One main reason is that being away from the research field, I don't have much to say. I have been working as an operational psychometrician for the recent three years and I have to say, the real world is so much different from the theoretical world that I have learned from the college. Although operational world are full of unexpectations and surprises, it does instilled me a love of measurement and psychometrics. Without this love, I would never develop this [`ppsy`](https://github.com/guanlanxu/ppsy) package.
+
+
+## What is `ppsy`
+
+`ppsy` is an R package that aims to facilitate the daily routine for operational psychometricians. Currently, it can call local IRT software and equating software to run calibration and equating and conduct drift analysis. It can also generate fit plots and conversion tables.   
+
+## Why I develop `ppsy`
+
+This idea came to my mind about two years ago when I was writing a script to do a similar job that I had done not long ago. Even though I could reuse most of my  code, I still had to modify it because of new conditions and restrictions. When this type of things came back to me again and again, I ended up having multiple versions of scripts to do a "same" job ("same" means that they are not identical but very similar), and they were stored under different folders and administrations. It made me hard to keep track of the changes. I like to code and I enjoy coding with complicated conditions or rules, but reading, comparing, and debugging between different versions of scripts hurts my eye. After I decided that having separate versions of scripts for different administrations is not a good solution for me, I finally took some time and integrated them into one. 
+
+
+## How I feel about `ppsy`
+
+First, the developing process is fun. Even though I already had scripts before I got into this, deciding which blocks of code is the foundational source code and what variables is the function parameters is an interesting experience. I remember there was once that I had written a function, but the next day I had a new idea and I ended up rewriting it completely. The rewrote version turned out to be more concise, more efficient, and better aligned to the overall system of the package.      
+
+Ever since `ppsy` was born, I have been testing and running it for two months and it worked amazing for my current project. I also know that operational world is dynamic, thus, I am always ready to rewrite, add, or give it a complete update. 
+
+
+One thing to note is that each project is different. When I was developing this package, I only have my own projects in my mind. Thus, it will not perfectly suit every needs. However, the logic and system behind each project is similar.     
+
+
+## The Logic of `ppsy`
+
+In my opinion, operational work has a very systematic structure for each administration. Each year or each administration is a cycle. Thus, the first step is to create directories for each new administration (`newadmin_setup()`). 
+
+With directories created, the next step is to locate the correct source files and specify paths for various outputs (`get_path()`). To be honest, I didn't expect this would take a seperate step. In the past, I just had it hardcoded in my script. However, when conditions get more and more complicated, I feel it is much cleaner to put it into a seperate function. This function serves as a hub in the sense that it controls all of the input and output paths.
+
+Due to the requirements of my current project, currently, calibration (`irt_cal()`) and equating processes (`alt_drift` and `eqSTUIRT_4drift()`) utilize IRTPRO, WINSTEPS, and STUIRT softwares and they only support `rasch`, `2PL`, `3PL`, and `GPC` models. Model fit function (`modfit_fun()`) calculates Q1 and G2 statistics. Drift analysis is based on D2 and fit plots. I may add more model and software to it in future. 
+
+Lastly, conversion table is created based on inverse TCC method (`get_rsss()`). 
+
+
+## In the Development
+
+I still have some scripts that I wrote before and I plan to add them into this package, including:
+
+* Sample plan
+* Sample representativeness check
+* Sample down
+* Reliability, both overall and subgroups
+* Unidimentional test via factor analysis
+* Generate summary reports
+
+
+
+
+
+As I said, each project is different. This package may not be a good fit for your project but I hope the logic I described above could give you some idea. If you are interested in `ppsy` or need help to build your own, please feel free to contact me. I will be very happy to hear or help. 
+
+Enjoy coding!!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
