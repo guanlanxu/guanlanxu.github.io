@@ -19,53 +19,53 @@ Education
 
 Work & Research Experience
 ======
-* 2021 - present : Associate Research Scientist	
+* 2021 - present : **Associate Research Scientist**	
   * Pearson
 
-* 2021 - 2021 : Data Science Intern	
+* 2021 - 2021 : **Data Science Intern**	
   * Corgee  
     * Conducted data queries and data cleaning. 
     * Compute important indices/statistics for visualization. 
     * Investigated sandbox opportuities and regulations to support company growth. 
  
  
-* 2018 - 2021 : Research Assistant	
+* 2018 - 2021 : **Research Assistant**	
   * The University of Iowa  
     * Collected, cleaned, and analyzed various types of datasets. 
     * Conducted psychometric research using R, SAS, SPSS, Mplus, FlexMIRT, and GENOVA. 
 
 
-* 2019 - 2020 : Preceptorship	
+* 2019 - 2020 : **Preceptorship**	
   * ACTNext
     * Developed an innovative item response model through extensive derivations and implemented it in R via optimization algorithms. 
     * Evaluated model performance on both simulated and large-scale operational data.
   
-* June 2020 - July 2020 : Psychometric Intern
+* June 2020 - July 2020 : **Psychometric Intern**
   * Alpine Testing Solutions
     * Validated a newly developed statistical software. 
     * Investigated literatures on cheating detection. 
     * Presented findings and recommendations to the psychometric team. 
 
-* 2017 - 2018: Statistics Tutor 
+* 2017 - 2018: **Statistics Tutor** 
   * The University of Iowa  
     * Articulated statistical concepts and cleared confusions and misunderstandings for 10+ clients
     * Reviewed and revised SAS/R codes to improve computing accuracy and efficiency
 
 
-* 2015 - 2016: Lecturer 
+* 2015 - 2016: **Lecturer** 
   * University of Pittsburgh
     * Developed course syllabus, guides, materials. 
     * Delivered daily lectures. Interacted with students both in and after classes.
     * Wrote and assembled quizzes/assignments/exams and designed analytic grading rubrics to diagnose students’ performance. Gave constructive feedback.
   
-* 2013 - 2015 : Teaching Assistant
+* 2013 - 2015 : **Teaching Assistant**
   * The University of Iowa
     * Led a task-based classroom.  
     * Supported students' learning via after-calss trainings. 
     * Assisted course supervisor and collaborated with team teachers through regular meetings.
 
   
-* 2011 - 2012 : Counselor
+* 2011 - 2012 : **Counselor**
   * Nanjing Medical University
     * Communicated regularly with students and parents. Supported undergraduate students make smooth transitions to university.
     * Gave weekly talks to 300+ students to enhance classroom cohesion. Kept a weekly journal on school's official website to record students' growth
@@ -73,18 +73,18 @@ Work & Research Experience
 
 Skills
 ======
-* Computing: R/SAS/SPSS/Python, Winsteps/FlexMIRT, SQL, Mplus, Qualtrics, Windows, Unix
-* Statistics: regression, generalized linear models, categorial/longitudinal models, experimental design, Bayesian modeling, predictive models, clustering
-* Psychometrics: item response theory, classical test theory, factor analysis, structural equation modeling, generalizability theory, equating, diagnostic models
+* **Computing**: R/SAS/SPSS/Python, Winsteps/FlexMIRT, SQL, Mplus, Qualtrics, Windows, Unix
+* **Statistics**: regression, generalized linear models, categorial/longitudinal models, experimental design, Bayesian modeling, predictive models, clustering
+* **Psychometrics**: item response theory, classical test theory, factor analysis, structural equation modeling, generalizability theory, equating, diagnostic models
 
 Training & Certificates
 ======
-* Demystify Amazon Web Services (AWS): Cloud Computing, and Psychometric Applications, Annual Meeting of National Council on Measurement in Education (2023), Chicago, IL
-* Addressing the Data Challenges of Next-generation Assessments: Data Science Upskilling for Psychometricians, Annual Meeting of National Council on Measurement in Education (2022), virtual
-* Using Stan for Bayesian Psychometric Modeling, Annual Meeting of National Council on Measurement in Education (2021), virtual
-* NAEP Data Training Workshop (2020), Arlington, VA	  
-* SAS Certified Base Programmers for SAS 9, Nov. 2016
-* SAS Certified Advanced Programmers for SAS9, Nov. 2016	  
+* **Demystify Amazon Web Services (AWS): Cloud Computing, and Psychometric Applications**, Annual Meeting of National Council on Measurement in Education (2023), Chicago, IL
+* **Addressing the Data Challenges of Next-generation Assessments: Data Science Upskilling for Psychometricians**, Annual Meeting of National Council on Measurement in Education (2022), virtual
+* **Using Stan for Bayesian Psychometric Modeling**, Annual Meeting of National Council on Measurement in Education (2021), virtual
+* **NAEP Data Training Workshop (2020)**, Arlington, VA	  
+* **SAS Certified Base Programmers for SAS 9**, Nov. 2016
+* **SAS Certified Advanced Programmers for SAS9**, Nov. 2016	  
 
 
 Services
