@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2022-11-18-bookchapter-IRT
 excerpt: "This article provides a broad overview of item response theory (IRT) "
 date: 2022-11-18
-venue: "International Encyclopedia of Education (Fourth Edition). Editor(s): Robert J Tierney, Fazal Rizvi, Kadriye Ercikan"
+venue: "International Encyclopedia of Education (Fourth Edition)."
 citation: 'Chapter Ackerman, A., Ma, Y., Ma, M., Pacico, J. C., Wang, Y., Xu, G., Ye, T.,Zhang, J., Zheng, M. (2022). Item Response Theory. In Editor R. J. Tierney, F. Rizvi, K. Ercikan. (Ed.) International Encyclopedia of Education (Fourth Edition, 72-85). Elsevier. https://doi.org/10.1016/B978-0-12-818630-5.10010-7'
 ---
 
