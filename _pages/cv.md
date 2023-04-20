@@ -79,10 +79,18 @@ Skills
 
 Training & Certificates
 ======
-* NCME Traing: Using Stan for Bayesian Psychometric Modeling,  Jun. 2021
-* NAEP Data Training Workshop, Feb.  2020	  
+* Demystify Amazon Web Services (AWS): Cloud Computing, and Psychometric Applications, Annual Meeting of National Council on Measurement in Education (2023), Chicago, IL
+* Addressing the Data Challenges of Next-generation Assessments: Data Science Upskilling for Psychometricians, Annual Meeting of National Council on Measurement in Education (2022), virtual
+* Using Stan for Bayesian Psychometric Modeling, Annual Meeting of National Council on Measurement in Education (2021), virtual
+* NAEP Data Training Workshop (2020), Arlington, VA	  
 * SAS Certified Base Programmers for SAS 9, Nov. 2016
 * SAS Certified Advanced Programmers for SAS9, Nov. 2016	  
+
+
+Services
+======
+* Session Chair & paper reviewer: 
+  * Annual Meeting of National Council on Measurement in Education (2023), Chicago, IL
 
 Awards
 ======
