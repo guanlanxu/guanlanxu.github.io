@@ -11,15 +11,15 @@ redirect_from:
 
 Education
 ======
-* **Ph.D in Educational Measurement and Statistics, The University of Iowa**
+* **Ph.D in Educational Measurement and Statistics**, The University of Iowa
   * Minor: Mathematical Statistics
-* **M.S  in Biostatistics, The University of Iowa**
-* **B.A & M.A in Classical Chinese Literature, Nanjing University**
+* **M.S  in Biostatistics**, The University of Iowa
+* **B.A & M.A in Classical Chinese Literature**, Nanjing University
 
 
 Work & Research Experience
 ======
-* 2021 - present : **Associate Research Scientist**	
+* **2021 - present : Associate Research Scientist**	
   * Pearson
 
 * **2021 - 2021 : Data Science Intern**	
