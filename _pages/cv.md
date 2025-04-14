@@ -55,22 +55,9 @@ Work & Research Experience
 * **2015 - 2016: Lecturer** 
   * University of Pittsburgh
     * Developed course syllabus, guides, materials. 
-    * Delivered daily lectures. Interacted with students both in and after classes.
-    * Wrote and assembled quizzes/assignments/exams and designed analytic grading rubrics to diagnose students’ performance. Gave constructive feedback.
+    * Wrote and assembled quizzes/assignments/exams and designed analytic grading rubrics to diagnose students’ performance.
+    * Gave constructive feedback.
   
-* **2013 - 2015 : Teaching Assistant**
-  * The University of Iowa
-    * Led a task-based classroom.  
-    * Supported students' learning via after-calss trainings. 
-    * Assisted course supervisor and collaborated with team teachers through regular meetings.
-
-  
-* **2011 - 2012 : Counselor**
-  * Nanjing Medical University
-    * Communicated regularly with students and parents. Supported undergraduate students make smooth transitions to university.
-    * Gave weekly talks to 300+ students to enhance classroom cohesion. Kept a weekly journal on school's official website to record students' growth
-    * Award: Third place in Professional Skills Competition at Nanjing Medical University
-
 Skills
 ======
 * **Computing**: R/SAS/SPSS/Python, Winsteps/FlexMIRT, SQL, Mplus, Qualtrics, Windows, Unix
@@ -90,7 +77,9 @@ Training & Certificates
 Services
 ======
 * **Session Chair & paper reviewer**: 
-  * Annual Meeting of National Council on Measurement in Education (2023), Chicago, IL
+  * Session Chair & paper reviewer of Annual Meeting of National Council on Measurement in Education (2023), Chicago, IL
+  * Paper reviewer of Annual Meeting of National Council on Measurement in Education (2024-2025)
+  * Paper reviewer of Annual Meeting of American Educational Research Association (2024-2025)
 
 Awards
 ======
@@ -113,10 +102,7 @@ Awards
   * The University of Iowa
     * This award is in recognition of the third-place excellent team project out of 40 competitive team projects in the 2018 Midwest Hackathon competition at the University of Iowa.    
 
-* **Mar. 2004: Excellent Student of Wuxi City**	
-  * Wuxi City Department of Education
-    * This award is in recognition of an outstanding student who is all-round developed in moral, intellectual, physical, and aesthetics among 30,000+ competitors in Wuxi City.
-    
+  
 
 
 Publications
@@ -134,15 +120,8 @@ Talks
 
 Volunteer Experience
 ======
-* Aug. 12, 2018 : Van Cleaning 
-  * Table to Table, Iowa City, IA 
-    * Cleaned 3 vans for food delivery
+* Aug. 12, 2018 : Table to Table, Van Cleaning 
+* Oct. 1, 2014 : John F. Kennedy High School, Speaker						   
+* Sep. 2013 - Dec. 2013 : Pathways Adult Day Health Ctr, Social Worker
 
-* Oct. 1, 2014 : Speaker						
-  * John F. Kennedy High School, Cedar Rapids, IA 
-    * Delivered a 30-minute talk on Chinese culture to 20+ audiences
-    
-* Sep. 2013 - Dec. 2013 : Social Worker
-   * Pathways Adult Day Health Ctr, Iowa City, IA
-      * Shared my time, talents, interests and hobbies.
 
