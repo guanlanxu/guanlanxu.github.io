@@ -24,7 +24,7 @@ Work & Research Experience
 
 * **2021 - 2021 : Data Science Intern**	
   * Corgee
-  *  
+    
 * **2018 - 2021 : Research Assistant**	
   * The University of Iowa  
 
