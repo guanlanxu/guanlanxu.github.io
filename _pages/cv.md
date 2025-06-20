@@ -23,17 +23,10 @@ Work & Research Experience
   * Pearson
 
 * **2021 - 2021 : Data Science Intern**	
-  * Corgee  
-    * Conducted data queries and data cleaning. 
-    * Compute important indices/statistics for visualization. 
-    * Investigated sandbox opportuities and regulations to support company growth. 
- 
- 
+  * Corgee
+  *  
 * **2018 - 2021 : Research Assistant**	
   * The University of Iowa  
-    * Collected, cleaned, and analyzed various types of datasets. 
-    * Conducted psychometric research using R, SAS, SPSS, Mplus, FlexMIRT, and GENOVA. 
-
 
 * **2019 - 2020 : Preceptorship**	
   * ACTNext
